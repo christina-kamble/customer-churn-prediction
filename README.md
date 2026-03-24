@@ -5,6 +5,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?logo=streamlit)](https://streamlit.io/)
 [![SHAP](https://img.shields.io/badge/Explainability-SHAP-purple)](https://shap.readthedocs.io/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://christina-churn-prediction.streamlit.app)
 
 > **Business problem:** A telecom company loses ~26% of customers annually. Each churned customer costs £200–£400 to replace. Can we predict who will leave — before they do?
 
