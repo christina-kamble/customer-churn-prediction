@@ -120,11 +120,11 @@ The Streamlit dashboard has three pages:
 
 ## 🔮 Future Improvements
 
-- [ ] Hyperparameter tuning with Optuna
-- [ ] Deploy dashboard to Streamlit Cloud (free hosting)
-- [ ] Add SMOTE for class imbalance handling
-- [ ] Survival analysis for time-to-churn modelling
-- [ ] Add unit tests with pytest
+- **Hyperparameter tuning with Optuna** — systematically optimise XGBoost to push performance beyond the logistic regression baseline (~0.84 ROC-AUC)
+- **Class imbalance handling with SMOTE** — the 26.5% churn rate creates modest imbalance; worth testing whether resampling meaningfully improves recall on the minority class
+- **Survival analysis (Kaplan-Meier / Cox model)** — shift from *will they churn?* to *when will they churn?*, enabling time-sensitive, tiered retention campaigns
+- **Cost-sensitive threshold optimisation** — tune the classification threshold around a real business cost matrix (false negative = lost customer ~£300; false positive = wasted retention offer ~£20) rather than defaulting to 0.5
+- **Pipeline unit tests with pytest** — add tests for the preprocessing and feature engineering steps to make the codebase production-ready
 
 ---
 
