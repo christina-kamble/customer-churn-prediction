@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://christina-churn-prediction.streamlit.app)
 
-> **Business problem:** A telecom company loses ~26% of customers annually. Each churned customer costs £200–£400 to replace. Can we predict who will leave — before they do?
+> **Business problem:** A telecom company loses ~26% of customers annually. Each churned customer costs £200–£400 to replace. Can we predict who will leave - before they do?
 
 ---
 
@@ -15,7 +15,7 @@
 
 This project builds an end-to-end machine learning pipeline to predict customer churn using the IBM Telco Customer Churn dataset (7,043 customers, 21 features). It goes beyond model accuracy to deliver **actionable business insights** and **model explainability** using SHAP values.
 
-**Best model: XGBoost — ROC-AUC ~0.82**
+**Best model: XGBoost - ROC-AUC ~0.82**
 
 ---
 
@@ -82,7 +82,7 @@ jupyter notebook notebooks/churn_analysis.ipynb
 streamlit run dashboard/app.py
 ```
 
-No data download needed — the dataset loads automatically from a public URL.
+No data download needed - the dataset loads automatically from a public URL.
 
 ---
 
@@ -102,15 +102,15 @@ SHAP answers: *"Why did the model predict this customer will churn?"*
 
 The Streamlit dashboard has three pages:
 
-1. **Overview** — churn distribution, key drivers, business metrics
-2. **Predict a Customer** — adjust sliders to simulate any customer profile and get an instant risk score with a recommendation
-3. **Model Insights** — SHAP feature importance and beeswarm plots
+1. **Overview** - churn distribution, key drivers, business metrics
+2. **Predict a Customer** - adjust sliders to simulate any customer profile and get an instant risk score with a recommendation
+3. **Model Insights** - SHAP feature importance and beeswarm plots
 
 ---
 
 ## 📦 Dataset
 
-**IBM Telco Customer Churn** — publicly available, widely used in industry interviews.
+**IBM Telco Customer Churn** - publicly available, widely used in industry interviews.
 
 - 7,043 customers · 21 features · 26.5% churn rate
 - Features include: contract type, tenure, monthly charges, internet service, payment method
